@@ -1,0 +1,27 @@
+# IDE
+.idea/
+.vscode/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+
+# Backup files
+*.bak 
+
+# Environment
+venv/
+venv.bak/ 
+
+# local
+.env
+media/
+nginx/
+
+# Dockerfile
+.dockerignore
+Dockerfile
+entrypoint.sh
